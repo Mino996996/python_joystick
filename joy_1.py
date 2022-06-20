@@ -47,7 +47,7 @@ def main():
             gamepad_data = {
                 # "joy_lx": map_axis(joystick.get_axis(0)),
                 "joy_ly": -map_axis(joystick.get_axis(1)),
-                "joy_rx": map_axis(joystick.get_axis(2)),
+                "joy_rx": map_axis(joystick.get_axis(3)),
                 # "joy_ry": -map_axis(joystick.get_axis(3)),
                 # "joy_lt": map_axis_t(joystick.get_axis(4)),
                 # "joy_rt": map_axis_t(joystick.get_axis(5)),
